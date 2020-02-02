@@ -9,14 +9,7 @@ a=1
 l="You are standing at the entrance to a long"+t
 x="look"
 n=", ",x,"\n> "
-z=input
-while a!=f:
-  if r<1:
-    a=z(c+f+n)
-    if a==x:p(l)
-    elif a==f:p(d);r=1
-  if r>0:
-    a=z(c+f+", "+b+n)
-    if a==b:p(l);r=0
-    elif a==x:p(d)
-p("You have escaped the"+t,"You win!")
+h=[c+f,c+f+b]
+q=[[f,x],[f,b,x]]
+w=[["p(d);r=1","p(l)"],["r=2;p('You have escaped the'+t,'You win!')","p(l);r=0","print(d)"]]
+while r != 2:exec(w[r][q[r].index(input(h[r]))])
