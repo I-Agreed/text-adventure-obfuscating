@@ -5,7 +5,6 @@ c="actions available: "
 t=" tunnel."
 d="You are in the depths of the"+t
 p=print
-a=1
 l="You are standing at the entrance to a long"+t
 x="look"
 n=", "+x+"\n> "
